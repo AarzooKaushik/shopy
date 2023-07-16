@@ -1,0 +1,115 @@
+.homeContainer {
+  height: 100vh;
+  background: url("https://static.wixstatic.com/media/84770f_b5b78cd83b6342199b7370a2ba6b9e06.jpg/v1/fill/w_1900,h_796,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_b5b78cd83b6342199b7370a2ba6b9e06.jpg")
+    no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeContent {
+  padding: 30px 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.homeContent h1 {
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  font-size: 55px;
+}
+.itemSection {
+  text-align: center;
+  padding: 70px 0;
+}
+.itemSectionHeader h1 {
+  font-size: 36px;
+  letter-spacing: 10px;
+}
+.dash {
+  width: 50px;
+  height: 1px;
+  border-radius: 20px;
+  margin: 24px 0;
+  background-color: rgb(48, 49, 50);
+  display: inline-block;
+}
+.itemSectionHeader p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.homePageItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1030px;
+  padding: 0 30px;
+  margin: auto;
+  margin-top: 64px;
+}
+.homePageItem {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(207, 203, 203);
+}
+.homePageItem img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+.saleTag {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 55px;
+  letter-spacing: 10px;
+}
+@media (max-width: 900px) {
+  .homeContent h1 {
+    font-size: 45px;
+  }
+  .homePageItems {
+    flex-direction: column;
+    max-width: 400px;
+    padding: 0 20px;
+  }
+  .homeContent {
+    padding: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .homeContainer {
+    height: 80vh;
+  }
+  .homeContent h1 {
+    font-size: 40px;
+    letter-spacing: 0.01em;
+  }
+}
+@media (max-width: 400px) {
+  .homeContent h1 {
+    font-size: 30px;
+  }
+
+  .itemSection {
+    padding: 40px 0;
+  }
+  .itemSectionHeader h1 {
+    font-size: 30px;
+    letter-spacing: 7px;
+  }
+  .itemSectionHeader h2 {
+    font-size: 20px;
+  }
+  .dash {
+    margin: 18px 0;
+  }
+  .homePageItem {
+    height: 350px;
+  }
+  .homePageItems {
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+}

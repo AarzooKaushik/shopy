@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  padding: 64px 0;
+}
+.container h1 {
+  letter-spacing: 0.3em;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+.container p {
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  line-height: 22px;
+}
+.container h2 {
+  line-height: 1.6em;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+}
+.dash {
+  width: 30px;
+  height: 1px;
+  border-radius: 20px;
+  margin: 30px 0;
+  background-color: rgb(84, 85, 86);
+  display: inline-block;
+}
+.margin-top-small {
+  margin-top: 30px;
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 40px 0;
+  }
+  .margin-top-small {
+    margin-top: 20px;
+  }
+}

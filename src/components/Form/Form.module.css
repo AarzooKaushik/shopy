@@ -1,0 +1,53 @@
+form {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  display: block;
+  font-size: 15px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid rgb(138, 138, 138);
+  color: rgb(93, 92, 92);
+}
+form textarea {
+  height: 100px;
+}
+form input::placeholder,
+form textarea::placeholder {
+  font-size: 13px;
+  color: rgb(138, 138, 138);
+}
+form button {
+  display: block;
+  margin-top: 20px;
+  background-color: rgb(52, 51, 51);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+form button:hover {
+  background-color: rgb(70, 69, 69);
+  color: white;
+}
+
+.error {
+  border: 1px solid red;
+}
+.errorMessage {
+  color: red;
+  height: 20px;
+}
+@media (max-width: 550px) {
+  form {
+    width: 100%;
+  }
+}

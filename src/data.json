@@ -1,0 +1,60 @@
+{
+    "PRODUCTS": [
+      {
+        "id": "p1",
+        "price": 59.99,
+        "title": "Midi Pleated Skirt",
+        "color": "Green",
+       "category": "cloth",
+        "image": "https://static.wixstatic.com/media/cda177_5b63fc47d8984bd094328cc5cf2045ef.png/v1/fill/w_297,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cda177_5b63fc47d8984bd094328cc5cf2045ef.png"
+      },
+      {
+        "id": "p2",
+        "price": 14.99,
+        "title": "Transparent Shirt",
+        "color": "White",
+        "category": "cloth",
+        "image": "https://static.wixstatic.com/media/cda177_467ce979b6924fe689b1347d7a982f3c.png/v1/fill/w_297,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cda177_467ce979b6924fe689b1347d7a982f3c.png"
+      },
+      {
+        "id": "p3",
+        "price": 34.99,
+        "title": "Leather Purse",
+        "color": "Brown",
+        "category": "purse",
+        "image": "https://static.wixstatic.com/media/cda177_44a04a0dbe2e4fe09bcb0e99d933925f.png/v1/fill/w_297,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cda177_44a04a0dbe2e4fe09bcb0e99d933925f.png"
+      },
+      {
+        "id": "p4",
+        "price": 39.99,
+        "title": "Shrug",
+        "color": "Black",
+        "category": "cloth",
+        "image": "https://static.wixstatic.com/media/cda177_95cd2230351d454e8fd76b7545766138.png/v1/fill/w_297,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cda177_95cd2230351d454e8fd76b7545766138.png"
+      },
+      {
+        "id": "p5",
+        "price": 50.99,
+        "title": "Ladies Footwear",
+        "color": "Red",
+        "category": "footwear",
+        "image": "https://static.wixstatic.com/media/cda177_eb61b785ee834218a45a9fad11e1d19b.png/v1/fill/w_297,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cda177_eb61b785ee834218a45a9fad11e1d19b.png"
+      },
+      {
+        "id": "p6",
+        "price": 19.99,
+        "title": "Dress",
+        "color": "Black",
+        "category": "cloth",
+        "image": "https://static.wixstatic.com/media/cda177_f1f82c1c2f2f42df9e23af0c01bf10aa.png/v1/fill/w_297,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cda177_f1f82c1c2f2f42df9e23af0c01bf10aa.png"
+      },
+      {
+        "id": "p7",
+        "price": 25.99,
+        "title": "Vintage Frame Eyeglasses",
+        "color": "purple",
+        "category": "other",
+        "image": "https://static.wixstatic.com/media/84770f_9a81715dcb4b43fa936d243fcd90e2a9.png/v1/fill/w_396,h_468,al_c,q_90,usm_0.66_1.00_0.01/84770f_9a81715dcb4b43fa936d243fcd90e2a9.webp"
+      }
+    ]
+  }
